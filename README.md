@@ -47,7 +47,7 @@ tracker = NeuronTracker(
     spatial_threshold=17.5*np.sqrt(2),  # ~24.7 μm (diagonal neighbor)
     waveform_threshold=0.9,
     time_window="48:00:00",             # 48 hours
-    dtw_threshold=0.7,
+    dtw_threshold=0.7,                  # NOT USED - kept for compatibility
     use_cluster=True
 )
 tracker.construct_graph(data)
@@ -72,14 +72,15 @@ np.save("trackable_units.npy", trackable_units)
    - Waveform weight: `(cosine_similarity - 0.9) / 0.1`
    - Combined: `0.5 × spatial + 0.5 × waveform`
 3. **Tracking**: Connected components represent the same neuron over time
-4. **Filtering**: Require minimum appearances (duration), edge weight, and DTW similarity
+3. **Tracking**: Connected components represent the same neuron over time
+4. **Filtering**: Require minimum appearances (duration) and edge weight
 
 ### Key Parameters
 
 - `spatial_threshold`: 24.7 μm (diagonal neighbor distance)
 - `waveform_threshold`: 0.9 (minimum similarity)
 - `time_window`: "48:00:00" (format: "HH:MM:SS")
-- `dtw_threshold`: 0.7 (DTW similarity filter)
+- `dtw_threshold`: NOT USED (kept for backward compatibility)
 - `duration`: 10 (minimum appearances)
 - `min_weight`: 0.5 (minimum avg edge weight)
 
