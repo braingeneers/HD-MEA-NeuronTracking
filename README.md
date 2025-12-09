@@ -147,7 +147,22 @@ Please also acknowledge the Braingeneers project.
 
 ## License
 
-This project is part of Braingeneers. Please refer to the repository license for usage terms.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). 
+
+**You are free to:**
+- Share and adapt this code for non-commercial purposes
+- Use it for research and educational purposes
+
+**You must:**
+- Give appropriate credit and cite the publication above
+- Indicate if changes were made
+
+**You cannot:**
+- Use this code for commercial purposes without explicit permission
+
+For commercial use inquiries, please contact the Braingeneers team.
+
+See the [LICENSE](LICENSE) file for full details.
 
 ## Contact
 
