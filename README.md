@@ -2,6 +2,14 @@
 
 A Python toolkit for tracking neurons across recordings using high-density microelectrode array (HD-MEA) data from cortical organoids. Implements graph-based algorithms to identify and track individual neurons over time based on waveform similarity and spatial location.
 
+## Citation
+
+If you use this code in your research, please cite:
+
+Geng J, Gonzalez-Ferrer J, Voitiuk K, Seiler ST, Schweiger HE, Hernandez S, Salama SR, Haussler D, Mostajo-Radji MA, Teodorescu M. Weighted Graph for Longitudinal Tracking of Neurons in Cortical Organoids on a High-Density Microelectrode Array. *Annu Int Conf IEEE Eng Med Biol Soc.* 2025 Jul;2025:1-5. doi: [10.1109/EMBC58623.2025.11253576](https://doi.org/10.1109/EMBC58623.2025.11253576). PMID: 41335812.
+
+Please also acknowledge the Braingeneers project.
+
 ## Key Features
 
 - **Graph-Based Tracking**: Track neurons across time using spatial and waveform features
@@ -136,14 +144,6 @@ Developed and tested on HD-MEA recordings from mouse cortical organoids:
 - 17.5 μm electrode pitch
 - Spike-sorted units with quality metrics
 - Functional connectivity between units
-
-## Citation
-
-If you use this code in your research, please cite:
-
-Geng J, Gonzalez-Ferrer J, Voitiuk K, Seiler ST, Schweiger HE, Hernandez S, Salama SR, Haussler D, Mostajo-Radji MA, Teodorescu M. Weighted Graph for Longitudinal Tracking of Neurons in Cortical Organoids on a High-Density Microelectrode Array. *Annu Int Conf IEEE Eng Med Biol Soc.* 2025 Jul;2025:1-5. doi: [10.1109/EMBC58623.2025.11253576](https://doi.org/10.1109/EMBC58623.2025.11253576). PMID: 41335812.
-
-Please also acknowledge the Braingeneers project.
 
 ## License
 
