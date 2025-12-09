@@ -1,4 +1,4 @@
-# HDMEA Neuron Tracking
+# HD-MEA Neuron Tracking
 
 A Python toolkit for tracking neurons across recordings using high-density microelectrode array (HD-MEA) data from cortical organoids. Implements graph-based algorithms to identify and track individual neurons over time based on waveform similarity and spatial location.
 
